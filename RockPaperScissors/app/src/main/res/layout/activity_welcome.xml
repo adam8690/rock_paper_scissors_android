@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codeclan.rockpaperscissors.WelcomeActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to: \n Rock Paper Scissors!"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:padding="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To play select a button on the next page. \n Rock beats Scissors \n Scissors beats Paper \n Paper beats Rock."
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Play"
+        android:onClick="onPlayButtonClicked"
+
+        />
+
+</LinearLayout>
